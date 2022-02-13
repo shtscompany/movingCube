@@ -1,0 +1,29 @@
+* {
+  padding: 0;
+  margin: 0;
+  transition: 0.03s all ease;
+  }
+#box {
+	position: relative ;
+  background-color: green;
+}
+#info {
+  position: absolute ;
+  height: 20px;
+  text-align: center;
+}
+#vl, #hl {
+  border-left: 2px dashed red;
+  position: absolute;
+  top: 0;
+}
+
+#hl {
+  border-top: 2px dashed red;
+} 
+
+#vlcor, #hlcor{
+  position: absolute;
+}
+
+
